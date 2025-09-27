@@ -55,7 +55,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           append_body: true
         env:
-          GITHUB_REPOSITORY: boy-hack/ksubdomain
+          GITHUB_REPOSITORY: dbds-team/my_ksubdomain
 
   build-macos-amd64:
     name: Build macOS (amd64)
@@ -97,7 +97,7 @@ jobs:
           token: ${{ secrets.TOKEN }}
           append_body: true
         env:
-          GITHUB_REPOSITORY: boy-hack/ksubdomain
+          GITHUB_REPOSITORY: dbds-team/my_ksubdomain
 
   build-macos-arm64:
     name: Build macOS (arm64)
@@ -139,4 +139,4 @@ jobs:
           token: ${{ secrets.TOKEN }}
           append_body: true
         env:
-          GITHUB_REPOSITORY: boy-hack/ksubdomain
+          GITHUB_REPOSITORY: dbds-team/my_ksubdomain
